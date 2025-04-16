@@ -27,6 +27,19 @@ Eg: def greet():
 
 ''' 
 Note2: DocStrings in functions helps to describe the function more efficiently.
+Eg:def multiply(x, y):
+    """
+    Multiply two numbers and return the result.
+
+    Parameters:
+    x (int or float): The first number.
+    y (int or float): The second number.
+
+    Returns:
+    int or float: The product of x and y.
+    """
+    return x * y
+
 
 Docstring: A string immediately after a function definition, used to describe the function
 Access via:	Function_name.__doc__ or help(function_name)
